@@ -8,8 +8,9 @@
 ### Tecnologias
 -   [PHP 7.3](https://www.php.net/)
 -   [MySQL](https://www.mysql.com/)
--   [LARAVEL 8](https://laravel.com/)
--   [LARADOCK](https://laradock.io/)
+-   [Laravel 8](https://laravel.com/)
+-   [Laravel Passport](https://laravel.com/docs/8.x/passport)
+-   [Laradock](https://laradock.io/)
 -   [Docker](https://www.docker.com/)
 
 
@@ -29,6 +30,17 @@ Criar .env na raiz de Laradock utilizando o .env.example como referência
 Criar Containers
   `cd laradock`
   `docker-compose up -d nginx mysql phpmyadmin`
+
+Rodar migrations do Banco de dados
+  `php artisan migrate`
+
+### Telas
+  
+  <img src="https://github.com/cleberbonifacio/make-transactions/blob/main/prints/registerUser.PNG">
+  <img src="https://github.com/cleberbonifacio/make-transactions/blob/main/prints/loginUser.PNG">
+  <img src="https://github.com/cleberbonifacio/make-transactions/blob/main/prints/detailUser.PNG">
+  <img src="https://github.com/cleberbonifacio/make-transactions/blob/main/prints/authorized.PNG">
+  <img src="https://github.com/cleberbonifacio/make-transactions/blob/main/prints/Unauthorized.PNG">
   
   
 
